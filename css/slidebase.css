@@ -1,0 +1,122 @@
+﻿@charset "UTF-8";
+
+
+/*
+--------------------------------------------------------------------------
+01. reset
+02. html
+03. body
+04. h
+05. a
+06. ul ol
+07. img
+08. table
+--------------------------------------------------------------------------
+*/
+
+
+/* 01. reset
+---------------------------------------------------	*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 02. html
+---------------------------------------------------	*/
+html{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+
+/* 03. body
+---------------------------------------------------	*/
+body{
+	padding-top: 30px;
+	width: 100%;
+	height: 100%;
+	background: #333333;
+	text-align: center;
+	line-height: 1;
+	color: #565656;
+	font-family: Arial,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+/* for IE6 */
+* html body{
+	font-size: 75%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html body{
+	font-size: 75%;
+}
+/* for IE7 */
+/* 
+基本サイズ  値
+12px        75%
+13px        82%
+14px        88%
+15px        94%
+16px        100%
+ */
+
+
+/* 04. h
+---------------------------------------------------	*/
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-size: 1em;
+}
+
+
+/* 05. a
+---------------------------------------------------	*/
+a:link{
+	
+}
+a:visited{
+	
+}
+a:hover{
+	
+}
+a:active{
+	
+}
+
+
+/* 06. ul ol
+---------------------------------------------------	*/
+ol,
+ol li,
+ul,
+ul li{
+	list-style-type: none;
+}
+
+
+/* 07. img
+---------------------------------------------------	*/
+img{
+	border: none;
+	vertical-align: middle;
+}
+
+
+/* 08. table
+---------------------------------------------------	*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+

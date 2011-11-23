@@ -1,0 +1,395 @@
+﻿@charset "UTF-8";
+
+
+/*
+--------------------------------------------------------------------------
+01. .Slide
+02.   p
+03.   a
+04.   ul li / ol li
+05.   dt / dd
+06.   strong / strong.more / em
+07.   pre
+08.   .Contents
+09.   .Section / .BSection
+10.   .Title1 / .Title2 / .Title3
+11.   .SubSentence
+12.   .RightBlock
+13.   .Notice
+14.   .Column
+15.   .ThumbnailSet
+16    .Index
+--------------------------------------------------------------------------
+*/
+
+
+/* 01. .Slide
+---------------------------------------------------	*/
+.Slide{
+	margin: 0 auto 30px auto;
+	width: 70%;
+	height: 90%;
+	border: #666666 solid 2px;
+	/* -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-background-clip:content;
+ 	 background-clip:content-box; */
+	background: #fefefe;
+	overflow-y: auto;
+	text-align: left;
+}
+
+
+/* 02.   p
+---------------------------------------------------	*/
+.Slide p{
+	padding-bottom: 10px;
+	color: #666666;
+	font-size: 20px;
+	line-height: 1.3;
+}
+/* for IE6 */
+*html .Slide p{
+	font-size: 150%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide p{
+	font-size: 150%;
+}
+/* for IE7 */
+/* for IE6 */
+*html .Slide li p{
+	font-size: 100%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide li p{
+	font-size: 100%;
+}
+/* for IE7 */
+
+
+/* 03.   a
+---------------------------------------------------	*/
+.Slide a{
+	color: #477F4B;
+}
+
+
+/* 04.   ul li / ol li
+---------------------------------------------------	*/
+.Slide ul li{
+	margin-left: 1em;
+	padding-bottom: 10px;
+	list-style: circle outside;
+	color: #666666;
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+.Slide ol li{
+	margin-left: 1.5em;
+	padding-bottom: 10px;
+	list-style: decimal outside;
+	color: #666666;
+	font-size: 20px;
+	line-height: 1.3;
+}
+/* for IE6 */
+*html .Slide ul li,
+*html .Slide ol li{
+	font-size: 150%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide ul li,
+*:first-child+html .Slide ol li{
+	font-size: 150%;
+}
+/* for IE7 */
+/* for IE6 */
+*html .Slide li ul li,
+*html .Slide li ol li{
+	font-size: 100%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide li ul li,
+*:first-child+html .Slide li ol li{
+	font-size: 100%;
+}
+/* for IE7 */
+
+
+/* 05.   dt / dd
+---------------------------------------------------	*/
+.Slide dt{
+	padding-bottom: 10px;
+	color: #666666;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.3;
+}
+/* for IE6 */
+*html .Slide dt{
+	font-size: 180%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide dt{
+	font-size: 180%;
+}
+/* for IE7 */
+
+.Slide dd{
+	margin-left: 3em;
+	margin-bottom: 20px;
+}
+
+
+/* 06.   strong / strong.more / em
+---------------------------------------------------	*/
+.Slide strong{
+	color: #ff358b;
+}
+
+.Slide strong.more{
+	font-size: 38px;
+}
+/* for IE6 */
+*html .Slide strong.more{
+	font-size: 237.5%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide strong.more{
+	font-size: 237.5%;
+}
+/* for IE7 */
+
+.Slide em{
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/* 07.   pre
+---------------------------------------------------	*/
+.Slide pre{
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #000000;
+	border: #666666 solid 1px;
+	overflow: auto;
+	color: #eeeeee;
+	font-family: Arial,sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+}
+/* for IE6 */
+*html .Slide pre{
+	font-size: 135%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide pre{
+	font-size: 135%;
+}
+/* for IE7 */
+
+
+/* 08.   .Contents
+---------------------------------------------------	*/
+.Slide .Contents{
+	padding: 5.7% 5.7% 0 5.7%;
+}
+
+
+/* 09.   .Section / .BSection
+---------------------------------------------------	*/
+.Slide .Section{
+	margin-bottom: 30px;
+}
+
+.Slide .BSection{
+	margin-bottom: 50px;
+}
+
+
+/* 10.   .Title1 / .Title2 / .Title3
+---------------------------------------------------	*/
+.Slide .Title1{
+	padding-bottom: 20px;
+	color: #73B2D9;
+	font-size: 50px;
+	font-weight: bold;
+}
+/* for IE6 */
+*html .Slide .Title1{
+	font-size: 375%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide .Title1{
+	font-size: 375%;
+}
+/* for IE7 */
+
+.Slide .Title2{
+	margin-bottom: 20px;
+	padding-left: 8px;
+	border-left: #5E88BF solid 8px;
+	color: #5E88BF;
+	font-size: 38px;
+	font-weight: bold;
+}
+/* for IE6 */
+*html .Slide .Title2{
+	font-size: 285%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide .Title2{
+	font-size: 285%;
+}
+/* for IE7 */
+
+.Slide .Title3{
+	margin-bottom: 20px;
+	padding-left: 8px;
+	border-left: #537BC3 solid 8px;
+	color: #537BC3;
+	font-size: 28px;
+	font-weight: bold;
+}
+/* for IE6 */
+*html .Slide .Title3{
+	font-size: 210%;
+}
+/* for IE6 */
+/* for IE7 */
+*:first-child+html .Slide .Title3{
+	font-size: 210%;
+}
+/* for IE7 */
+
+
+/* 11.   .SubSentence
+---------------------------------------------------	*/
+.Slide .SubSentence{
+	margin-left: 2em;
+}
+
+
+/* 12.   .RightBlock
+---------------------------------------------------	*/
+.Slide .RightBlock{
+	text-align: right;;
+}
+
+
+/* 13.   .Notice
+---------------------------------------------------	*/
+.Slide .Notice{
+	text-indent: -1.3em;
+	padding-left: 1.3em;
+}
+
+
+/* 14.   .Column
+---------------------------------------------------	*/
+/* clear element */
+.Slide .Column{ /zoom : 1; }
+.Slide .Column:after{ content : ''; display : block; clear : both; height: 0; }
+/* clear element */
+
+.Slide .Column .Left{
+	width: 50%;
+	float: left;
+}
+
+.Slide .Column .Right{
+	width: 49%;
+	float: right;
+}
+
+
+/* 15.   .ThumbnailSet
+---------------------------------------------------	*/
+.Slide .ThumbnailSet{
+	overflow: hidden;
+}
+
+/* clear element */
+.Slide .ThumbnailSet{ /zoom : 1; }
+.Slide .ThumbnailSet:after{ content : ''; display : block; clear : both; height: 0; }
+/* clear element */
+
+.Slide .ThumbnailSet .ThumbnailLeft{
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+.Slide .ThumbnailSet .ExplainRight{
+	overflow: hidden;
+	zoom: 1;
+}
+
+.Slide .ThumbnailSet .ThumbnailRight{
+	float: right;
+	margin: 0 0 0 30px;
+}
+
+.Slide .ThumbnailSet .ExplainLeft{
+	text-align: right;
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+/* 16.   .Index
+---------------------------------------------------	*/
+.Index{
+	text-align: left;
+}
+
+.Index ul{
+	/* width: 10%; */
+	border-right: 1px solid #999999;
+}
+
+.Index li{
+	border-bottom: 1px solid #999999;
+}
+
+.Index a{
+	padding: 15px;
+	display: block;
+	background: #ffffff;
+	color: #666666;
+	text-decoration: none;
+	/* opacity: 0.8;
+	filter: alpha(opacity = 80); */
+}
+
+.Index .list1 a{
+	font-weight:bold;
+}
+
+.Index .list2 a{
+	padding-left:30px;
+	font-weight:bold;
+}
+
+.Index .list3 a{
+	padding-left:60px;
+}
+
+.Index a:hover{
+	background: #73B2D9;
+	color: #ffffff;
+	/* opacity: 1;
+	filter: alpha(opacity = 100); */
+}
